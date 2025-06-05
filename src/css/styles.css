@@ -9,6 +9,13 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 
+
+.menu-link:hover,
+.menu-link:focus{
+  color: #0056B3;
+    transform: translateY(-2px);
+}
+
 .back-button {
   display: inline-block;
   margin-top: 24px;
@@ -50,8 +57,9 @@
   width: 272px;
   height: 40px;
 }
-#datetime-picker:hover{
-  color: black ;
+
+#datetime-picker:hover {
+  color: black;
 }
 
 .button-start {
@@ -71,10 +79,12 @@
   background-color: #cfcfcf;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.button-start:hover{
+
+.button-start:hover {
   background-color: #4e75ff;
   color: #FFFFFF;
 }
+
 .timer {
   display: flex;
   align-items: center;
@@ -82,28 +92,31 @@
   gap: 24px;
   width: 346px;
   height: 72px;
-  margin: 32px auto ;
+  margin: 32px auto;
 }
-.field{
+
+.field {
   display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 55px;
-      height: 72px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 55px;
+  height: 72px;
 }
-.value{
+
+.value {
   font-weight: 400;
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: 0.04em;
-    color: #2e2f42;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
-.label{
+
+.label {
   font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
 }
 
 /*snackbar*/
