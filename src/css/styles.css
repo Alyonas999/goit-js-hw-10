@@ -9,7 +9,14 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 
-
+.menu-link{
+  font-weight: 400;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+ margin-left: 20px;
+}
 .menu-link:hover,
 .menu-link:focus{
   color: #0056B3;
