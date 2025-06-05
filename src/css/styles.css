@@ -32,7 +32,6 @@
 }
 
 /*timer*/
-
 .page-center {
   display: flex;
   justify-content: center;
@@ -105,4 +104,100 @@
     font-size: 16px;
     line-height: 1.5;
     color: #2e2f42;
+}
+
+/*snackbar*/
+.form{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+      padding: 16px;
+      width: 360px;
+      height: 230px;
+      background-color: #f4f4f4;
+}
+.label{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+   margin: 8px auto;
+   
+}
+
+.input{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 360px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    height: 40px;
+}
+.state-form {
+  width: 360px;
+  height: 78px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 8px 48px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.state-form legend {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 4px;
+}
+
+.label-snackbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.label-snackbar label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.fieldset-input {
+  margin: 0;
+  width:20px;
+  height:20px;
+}
+.button-snackbar{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+      padding: 8px 16px;
+      width: 360px;
+      height: 40px;
+      background-color: #4e75ff;
+      color: #ffffff;
+      font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+      border: none;
 }

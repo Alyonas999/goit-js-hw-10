@@ -11,27 +11,29 @@
 
 <body>
   <a class="back-button" href="./index.html">Go back</a>
-  <form class="form">
-    <label>
-      Delay (ms)
-      <input type="number" name="delay" required />
-    </label>
-
-    <fieldset>
-      <legend>State</legend>
-      <label>
-        <input type="radio" name="state" value="fulfilled" required />
-        Fulfilled
+  <div class="page-center">
+    <form class="form">
+      <label class="label">
+        Delay (ms)
+        <input class="input" type="number" name="delay" required />
       </label>
-      <label>
-        <input type="radio" name="state" value="rejected" required />
-        Rejected
-      </label>
-    </fieldset>
 
-    <button type="submit">Create notification</button>
-  </form>
+      <fieldset class="state-form">
+        <legend>State</legend>
+        <label class="label-snackbar">
+          <input class="fieldset-input" type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
 
+        <label class="label-snackbar">
+          <input class="fieldset-input" type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button class="button-snackbar" type="submit">Create notification</button>
+    </form>
+  </div>
   <script type="module" src="./js/2-snackbar.js"></script>
 </body>
 
