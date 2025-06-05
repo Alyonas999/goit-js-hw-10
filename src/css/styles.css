@@ -51,6 +51,9 @@
   width: 272px;
   height: 40px;
 }
+#datetime-picker:hover{
+  color: black ;
+}
 
 .button-start {
   display: flex;
@@ -67,8 +70,12 @@
   letter-spacing: 0.04em;
   color: #989898;
   background-color: #cfcfcf;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
+.button-start:hover{
+  background-color: #4e75ff;
+  color: #FFFFFF;
+}
 .timer {
   display: flex;
   align-items: center;
