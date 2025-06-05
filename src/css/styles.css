@@ -1,18 +1,101 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
+
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
 @import url('./animations.css');
 
-/* Sections style */
-@import url('./header.css');
+
 @import url('./vite-promo.css');
 @import url('./badges.css');
 @import url('./back-link.css');
-@import url('./footer.css');
+
+.back-button {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 10px 18px;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 80px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: #007BFF;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.back-button:hover {
+  background-color: #0056B3;
+  transform: translateY(-2px);
+}
+
+/*timer*/
+
+.page-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 36px;
+  height: 100%;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#datetime-picker {
+  width: 272px;
+  height: 40px;
+}
+
+.button-start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+  background-color: #cfcfcf;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 346px;
+  height: 72px;
+  margin: 32px auto ;
+}
+.field{
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 55px;
+      height: 72px;
+}
+.value{
+  font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+.label{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
